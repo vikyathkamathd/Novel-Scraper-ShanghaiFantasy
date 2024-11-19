@@ -26,7 +26,7 @@ while True:
     #write to txt
     with open(book_name,"a") as file:
         file.write(soup.title.text+"\n"*2)
-        file.write(chapter_content+"\n")
+        file.write(chapter_content+"\n"*2)
         print(title,"Done...")
     
     #find next url
